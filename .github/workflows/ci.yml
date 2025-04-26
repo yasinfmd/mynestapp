@@ -26,3 +26,6 @@ jobs:
           - name: install depend
             run: | 
                 npm install
+          - name: build  app
+            run: | 
+                npm run build
