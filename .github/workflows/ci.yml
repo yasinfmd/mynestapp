@@ -29,3 +29,13 @@ jobs:
           - name: build  app
             run: | 
                 npm run build
+
+
+          - name: test  app
+            run: | 
+                npm run test
+
+          - name: docker build  app
+            run: | 
+                    docker build -t my-nest-app .
+            
